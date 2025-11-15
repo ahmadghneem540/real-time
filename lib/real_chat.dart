@@ -45,9 +45,9 @@ class _RealChatState extends State<RealChat> {
     });
     channel.sink.add(data);
 
-        // setState(() {
+        setState(() {
       messages.add("Me: $text");
-    // });
+    });
     _controller.clear();
   }
 
