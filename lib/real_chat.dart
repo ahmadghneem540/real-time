@@ -49,7 +49,9 @@ class _RealChatState extends State<RealChat> {
       messages.add("Me: $text");
     });
     _controller.clear();
-  } void sendMessage1() {
+  }
+
+  void sendMessage1() {
     final text = _controller.text.trim();
     if (text.isEmpty) return;
 
